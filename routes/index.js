@@ -1,5 +1,5 @@
 const { Router } = require('express');
-const { createFood, getAllFoods } = require('../controllers/foodController');
+const { createFood, getAllFoods, updateFood, deleteFood } = require('../controllers/foodController');
 const router = Router();
 
 router.post('/foods', createFood);
